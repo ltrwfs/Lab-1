@@ -5,5 +5,5 @@ def graph(length):
         print(' '*(width - position) + '\x1b[43m \x1b[0m' + ' '*position)
 
 if __name__ == '__main__':
-    length = 14
+    length = 16
     graph(length)
