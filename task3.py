@@ -1,4 +1,4 @@
-def grap(length):
+def graph(length):
     width = length//2
     for lines in range(length):
         position = lines//2
@@ -6,4 +6,4 @@ def grap(length):
 
 if __name__ == '__main__':
     length = 14
-    grap(length)
+    graph(length)
