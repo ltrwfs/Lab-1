@@ -9,6 +9,6 @@ def pattern(width):
 if __name__ == '__main__':
     width = 10
     length = 5
-    for lines in range(length):
+    for _ in range(length):
         pattern(width)
         print('\x1b[2A')
